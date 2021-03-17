@@ -1,6 +1,6 @@
 {
   "name": "code-fabric",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "keywords": [
     "eslint",
@@ -25,7 +25,8 @@
   "scripts": {
     "start": "siroc build --watch",
     "prettier": "prettier -c --write '**/*.{js,ts,md,json}'",
-    "build": "del dist && siroc build"
+    "build": "del dist && siroc build",
+    "release": "standard-version"
   },
   "dependencies": {
     "@babel/core": "^7.12.10",
