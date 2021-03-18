@@ -31,7 +31,7 @@
     "start": "siroc build --watch",
     "prettier": "prettier -c --write '**/*.{js,ts,md,json}'",
     "build": "del dist && siroc build",
-    "release": "npm run build && standard-version"
+    "release": "npm run build && standard-version && npm publish && git push --follow-tags"
   },
   "dependencies": {
     "@babel/core": "^7.12.10",
