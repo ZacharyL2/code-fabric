@@ -1,6 +1,6 @@
 {
   "name": "code-fabric",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "keywords": [
     "eslint",
@@ -17,13 +17,13 @@
   },
   "license": "MIT",
   "author": "islizeqiang@gmail.com",
-  "main": "dist/index.js",
   "exports": {
     ".": "./dist/index.js",
     "./eslint": "./dist/eslint.js",
     "./prettier": "./dist/prettier.js",
     "./stylelint": "./dist/stylelint.js"
   },
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
