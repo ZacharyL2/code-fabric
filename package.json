@@ -18,12 +18,17 @@
   "license": "MIT",
   "author": "islizeqiang@gmail.com",
   "exports": {
-    ".": "./dist/index.js",
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.es.js"
+    },
     "./eslint": "./dist/eslint.js",
     "./prettier": "./dist/prettier.js",
     "./stylelint": "./dist/stylelint.js"
   },
   "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.es.d.ts",
   "files": [
     "dist"
   ],
