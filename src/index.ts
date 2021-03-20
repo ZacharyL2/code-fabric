@@ -1,9 +1,3 @@
-import eslint from './eslint';
-import stylelint from './stylelint';
-import prettier from './prettier';
-
-export default {
-  stylelint,
-  prettier,
-  eslint,
-};
+export { default as eslint } from './eslint';
+export { default as prettier } from './prettier';
+export { default as stylelint } from './stylelint';
