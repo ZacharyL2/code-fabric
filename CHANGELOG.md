@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/islizeqiang/code-fabric/compare/v1.2.0...v1.3.0) (2021-03-20)
+
+
+### Features
+
+* add module exports entry ([ffec3f9](https://github.com/islizeqiang/code-fabric/commit/ffec3f99af1937a122ac4e9bca0a594c525b8fb0))
+
+
+### Bug Fixes
+
+* change module entry file export function ([b4fe330](https://github.com/islizeqiang/code-fabric/commit/b4fe330cc1dfb5867079fc2f7a07e8008cd27e1c))
+* change release scripts ([aa5c723](https://github.com/islizeqiang/code-fabric/commit/aa5c72354d98469fd5c8a806fb20bc2ed50f1694))
+
 ## [1.2.0](https://github.com/islizeqiang/code-fabric/compare/v1.1.0...v1.2.0) (2021-03-18)
 
 
