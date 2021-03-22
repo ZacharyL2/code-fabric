@@ -2,6 +2,14 @@
 
 A collection of configuration files containing prettier, eslint, stylelint
 
+## Install
+
+```bash
+npm install code-fabric --save-dev
+# or
+yarn add code-fabric --dev
+```
+
 ## Use
 
 in `.eslintrc.js`
