@@ -10,7 +10,7 @@ npm install code-fabric --save-dev
 yarn add code-fabric --dev
 ```
 
-## Use
+## Usage
 
 in `.eslintrc.js`
 
