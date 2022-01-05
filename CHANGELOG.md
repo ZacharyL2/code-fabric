@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/islizeqiang/code-fabric/compare/v2.0.0...v2.1.0) (2022-01-05)
+
+
+### Features
+
+* update eslint config ([7f925cf](https://github.com/islizeqiang/code-fabric/commit/7f925cf6a47b6beeb7afe9d2ef54f7ee0b0098fb))
+
 ## [2.0.0](https://github.com/islizeqiang/code-fabric/compare/v1.5.0...v2.0.0) (2022-01-05)
 
 
