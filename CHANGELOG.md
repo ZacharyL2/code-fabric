@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/islizeqiang/code-fabric/compare/v1.6.0...v1.7.0) (2022-01-08)
+
+
+### Features
+
+* update dependencies ([659ab37](https://github.com/islizeqiang/code-fabric/commit/659ab3763c46e8432136d4b88b7c41233b1e6cc9))
+
 ## [1.6.0](https://github.com/islizeqiang/code-fabric/compare/v1.5.0...v1.6.0) (2022-01-08)
 
 ## [1.5.0](https://github.com/islizeqiang/code-fabric/compare/v1.4.1...v1.5.0) (2021-07-23)
