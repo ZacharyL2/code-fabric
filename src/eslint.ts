@@ -56,7 +56,6 @@ export default {
     'react/jsx-props-no-spreading': 0,
     'react/state-in-constructor': 0,
     'react/static-property-placement': 0,
-    // Too restrictive: https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/destructuring-assignment.md
     'react/destructuring-assignment': 'off',
     'react/jsx-filename-extension': 'off',
     'react/no-array-index-key': 'warn',
@@ -108,9 +107,6 @@ export default {
     ...(isTsProject ? tsEslintConfig : {}),
   },
   settings: {
-    react: {
-      version: 'detect',
-    },
     // support import modules from TypeScript files in JavaScript files
     'import/resolver': {
       node: {

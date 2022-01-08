@@ -33,11 +33,11 @@
     "dist"
   ],
   "scripts": {
-    "start": "siroc build --watch",
-    "prettier": "prettier -c --write '**/*.{js,ts,md,json}'",
     "build": "del dist && siroc build",
+    "prettier": "prettier -c --write '**/*.{js,ts,md,json}'",
     "prerelease": "npm run build",
-    "release": "standard-version"
+    "release": "standard-version",
+    "start": "siroc build --watch"
   },
   "dependencies": {
     "@babel/core": "^7.14.8",
@@ -49,7 +49,7 @@
     "@babel/preset-typescript": "^7.14.5",
     "@typescript-eslint/eslint-plugin": "^4.28.4",
     "@typescript-eslint/parser": "^4.28.4",
-    "eslint": "^7.31.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-formatter-pretty": "^4.1.0",
@@ -67,25 +67,22 @@
     "fast-glob": "^3.2.7",
     "prettier": "^2.3.2",
     "prettier-plugin-style-order": "^0.2.2",
-    "stylelint": "^13.13.1",
-    "stylelint-config-css-modules": "^2.2.0",
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.4.0",
-    "stylelint-no-unsupported-browser-features": "^5.0.1",
-    "stylelint-order": "^4.1.0",
+    "stylelint": "^14.2.0",
+    "stylelint-config-css-modules": "^2.3.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
     "typescript": "^4.3.5"
   },
   "devDependencies": {
     "del-cli": "^3.0.1",
     "siroc": "^0.10.1",
-    "standard-version": "^9.3.1"
+    "standard-version": "^9.3.1",
+    "tslib": "^2.3.1"
   },
   "peerDependencies": {
-    "eslint": "^7.31.0",
-    "prettier": "^2.3.2",
-    "stylelint": "^13.13.1"
+    "eslint": ">=7",
+    "prettier": ">=2"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
