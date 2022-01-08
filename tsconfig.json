@@ -4,6 +4,7 @@
     "module": "CommonJS",
     "declaration": true,
     "strict": true,
+    "importHelpers": true,
     "lib": ["esnext"],
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
