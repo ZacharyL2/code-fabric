@@ -11,6 +11,8 @@ export default {
     jasmine: true,
   },
   rules: {
+    'prefer-const': 2,
+    'no-use-before-define': ['error', { functions: false, classes: true, variables: true }],
     'generator-star-spacing': 0,
     'function-paren-newline': 0,
     'import/no-unresolved': 0,
